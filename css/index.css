@@ -2,29 +2,9 @@ body {
     background-color: rgb(130, 146, 231);
 }
 
-/* 主体第一块：高考倒计时，公告模块 */
-/* .first {
 
-    position: relative;
-    width: 1300px;
-    flex: 0 0 auto;
-    margin: 30px auto;
-    border: 1px solid;
-}
-
-.first .gonggao {
-    position: absolute;
-    flex: 1 1 auto;
-    right: 0;
-    width: 350px;
-    height: 400px;
-    border-radius: 20px;
-    background-color: #fff;
-} */
-.first {
-    position: relative;
-    /* justify-content: space-between; */
-    /* 让内容和公告之间有空隙 */
+.first,
+.second {
     position: relative;
     width: 1300px;
     height: 410px;
@@ -33,7 +13,8 @@ body {
     z-index: -1;
 }
 
-.first .gaokao {
+.first .gaokao,
+.second .timetable {
     position: absolute;
     left: 0;
     width: 920px;
@@ -42,7 +23,8 @@ body {
     border-radius: 10px;
 }
 
-.first .gonggao {
+.first .gonggao,
+.second .school_end_time {
     position: absolute;
     right: 0;
     width: 350px;
@@ -74,4 +56,40 @@ body {
     float: right;
     margin-right: 20px;
     margin-top: 10px;
+}
+
+/* 第二个模块 */
+/* 第二模块的基础设置属性在第一模块 */
+/* .second {} */
+.second .timetable {
+    height: 500px;
+}
+
+/* 课程表 */
+.timetable table {
+
+    width: 95%;
+    margin: 20px auto 0;
+    border-collapse: collapse;
+
+}
+
+.timetable thead {
+    height: 40px;
+}
+
+.timetable tr,
+.timetable td,
+.timetable table {
+    border: 1px solid;
+    text-align: center;
+}
+
+.timetable tbody td {
+    height: 85px;
+    width: 40px;
+}
+
+.second .school_end_time {
+    height: 500px;
 }
