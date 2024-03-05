@@ -18,7 +18,8 @@ class_data = [
     { name: "形势与政策", classroom: [2201], date: [5, 6, 7, 8], weekclass: [[6, 2]] },
     { name: "【选修】创新创业理论技术", classroom: [5302], date: [2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[6, 3]] },
     { name: "【选修】中国古建筑欣赏与设计", classroom: [2402], date: [2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[6, 4]] },
-    { name: "c#上机", classroom: [null], date: [2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14], weekclass: [[5, 5]] },
+    { name: "c#上机", classroom: [null], date: [2, 3, 4, 5, 6, 7, 8, 10, 11], weekclass: [[1, 1]] },
+    { name: "c#上机", classroom: [null], date: [12, 13, 14], weekclass: [[1, 2]] },
     { name: "数据库上机", classroom: [null], date: [5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17], weekclass: [[4, 1]] },
 
 ]
