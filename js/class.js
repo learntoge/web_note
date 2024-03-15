@@ -6,27 +6,27 @@ class_data = [
     { name: "网络原理实验", classroom: [null, null], date: [12, 13, 14, 15, 16, 17], weekclass: [[1, 1], [1, 4]] },
     { name: "网络原理及操作", classroom: [5202, 6306], date: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11], weekclass: [[1, 2], [3, 1]] },
     { name: "习近平中国特色社会主义思想概论", classroom: [2102, 2102], date: [5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17], weekclass: [[1, 3], [5, 1]] },
-    { name: "体育", classroom: [null], date: [2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17], weekclass: [[2, 1]] },
+    { name: "体育", classroom: ['羽毛球馆'], date: [2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17], weekclass: [[2, 1]] },
     { name: "c#程序设计", classroom: [6206, 5301], date: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15], weekclass: [[2, 3], [4, 3]] },
     { name: "大学英语", classroom: [6401, 6107], date: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13], weekclass: [[2, 4], [5, 2]] },
     { name: "数据库原理及其应用", classroom: [2203], date: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17], weekclass: [[3, 3]] },
     { name: "UI交互设计与表现", classroom: [3408, 3408], date: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[3, 4], [4, 2]] },
     { name: "UI交互设计与表现", classroom: [3408], date: [1, 2], weekclass: [[5, 3]] },
     { name: "思想道德与法制", classroom: [2203], date: [16, 17, 18], weekclass: [[5, 3]] },
-    { name: "思想道德与法制", classroom: [5101], date: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[6, 1]] },
+    { name: "思想道德与法制", classroom: [5101], date: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[1, 5]] },
     { name: "职业核心能力", classroom: [4107], date: [1, 2, 3, 4, 5, 6, 7, 8], weekclass: [[4, 4]] },
     { name: "形势与政策", classroom: [2201], date: [5, 6, 7, 8], weekclass: [[6, 2]] },
     { name: "【选修】创新创业理论技术", classroom: [5302], date: [2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[6, 3]] },
     { name: "【选修】中国古建筑欣赏与设计", classroom: [2402], date: [2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[6, 4]] },
-    { name: "c#上机", classroom: [null], date: [2, 3, 4, 5, 6, 7, 8, 10, 11], weekclass: [[1, 1]] },
-    { name: "c#上机", classroom: [null], date: [12, 13, 14], weekclass: [[1, 2]] },
+    { name: "c#上机", classroom: [3401], date: [2, 3, 4, 5, 6, 7, 8, 10, 11], weekclass: [[1, 1]] },
+    { name: "c#上机", classroom: [3401], date: [12, 13, 14], weekclass: [[1, 2]] },
     { name: "数据库上机", classroom: [null], date: [5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17], weekclass: [[4, 1]] },
 
 ]
 
 //使用dom创建表格
 // 时间数据
-const classtime = [{ noc: '第一讲', times: '08:30-10:05' }, { noc: '第二讲', times: '10:20-11:55' }, { noc: '第三讲', times: '13:30-15:05' }, { noc: '第四讲', times: '15:20-16:55' }, { noc: '中午', times: null }]
+const classtime = [{ noc: '第一讲', times: '08:30-10:05' }, { noc: '第二讲', times: '10:20-11:55' }, { noc: '第三讲', times: '13:30-15:05' }, { noc: '第四讲', times: '15:20-16:55' }, { noc: '晚上', times: '18:30-20:00' }]
 for (let i = 0; i < 5; i++) {
     let tr = document.createElement('tr')
     tr.innerHTML = `<td><div>${classtime[i].noc}</div><div>(${classtime[i].times})</div></td>

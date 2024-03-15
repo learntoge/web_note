@@ -1,4 +1,4 @@
-document.querySelector('body').innerHTML = `  
+document.querySelector('body').innerHTML = ` 
 <!-- 导航栏模块 -->
 <nav>
     <div class="nav_big_box">
@@ -20,7 +20,7 @@ document.querySelector('body').innerHTML = `
                         </a></li> -->
                 </ul>
             </span>
-            <span class="menus"><a href="">备用1</a>
+            <span class="menus"><a href="">C#资料</a>
                 <ul>
                     <!-- <li><a href="">
                             <img src="" alt="">
@@ -45,30 +45,12 @@ document.querySelector('body').innerHTML = `
                 </ul>
             </span>
         </span>
-      
+
     </div>
 </nav>
 
-    <div>
-        <div class="first">
-
-            <div class="gaokao"></div>
-            <div class="gonggao">
-                <h3>网站公告</h3>
-                <ol>
-                    <li>本网站（原最美明天）始建于2023年4月，于2024年2月改版为Learn_Together</li>
-                    <li>由于国内服务器即将到期，服务器续费金额昂贵，所以本站不再使用应用服务器部署</li>
-                    <li>本站用于分享我的学习内容，笔记等。</li>
-                    <li>本站学习内容可能存在不准确，不全面，甚至一些错误，如发现歧义，请以该语言的官方开发文档为准</li>
-                    <li>网站分辨率1920*1080，16：9，PC浏览器端，如出现排版问题，可尝试增大或减小浏览器缩放比例</li>
-                    <li>网站开发尚未完成，正在加紧开发。</li>
-                </ol>
-                <p>2024/03/01</p>
-            </div>
-        </div>
-    </div>
  <!-- 模块2 -->
-<div>
+    <div>
         <div class="second">
             <div class="timetable">
                 <table>
@@ -92,12 +74,4 @@ document.querySelector('body').innerHTML = `
             <div class="school_end_time">
             </div>
         </div>
-    </div>
-
-<!-- 页脚模块 -->
-<footer>
-
-</footer>
-
-
-`
+    </div> `
