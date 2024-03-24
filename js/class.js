@@ -13,7 +13,7 @@ class_data = [
     { name: "UI交互设计与表现", classroom: [3408, 3408], date: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[3, 4], [4, 2]] },
     { name: "UI交互设计与表现", classroom: [3408], date: [1, 2], weekclass: [[5, 3]] },
     { name: "思想道德与法制", classroom: [2203], date: [16, 17, 18], weekclass: [[5, 3]] },
-    { name: "思想道德与法制", classroom: [5101], date: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[1, 5]] },
+    { name: "思想道德与法制", classroom: [5103], date: [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[1, 5]] },
     { name: "职业核心能力", classroom: [4107], date: [1, 2, 3, 4, 5, 6, 7, 8], weekclass: [[4, 4]] },
     { name: "形势与政策", classroom: [2201], date: [5, 6, 7, 8], weekclass: [[6, 2]] },
     { name: "【选修】创新创业理论技术", classroom: [5302], date: [2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18], weekclass: [[6, 3]] },
