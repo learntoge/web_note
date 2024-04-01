@@ -11,8 +11,13 @@ const biji_data = [
 ]//{ logo: '', src: '', tip: 'MySQL笔记' },
 
 const ziliao_data = [
-    { logo: 'img/logo_ceshi.png', src: 'index.html', tip: '测试模块' },
-    { logo: 'img/logo_ceshi.png', src: 'index.html', tip: '测试模块' }]
+    { logo: 'img/cshomework_icon.png', src: 'somefile/NO.1.zip', tip: '第一次作业' },
+    { logo: 'img/cshomework_icon.png', src: 'somefile/NO.2.zip', tip: '第二次作业' },
+    { logo: 'img/cshomework_icon.png', src: 'somefile/NO.3.zip', tip: '第三次作业' },
+    { logo: 'img/cshomework_icon.png', src: 'somefile/NO.4.zip', tip: '第四次作业' },
+    { logo: 'img/cshomework_icon.png', src: 'somefile/空白报告.zip', tip: '空白报告' },
+    { logo: 'img/cshomework_icon2.png', src: 'index.html', tip: '点击下载' }
+]
 //定义函数渲染菜单栏内容
 function nav_data_in(data, obj) {
 

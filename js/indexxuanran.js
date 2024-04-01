@@ -12,7 +12,7 @@ document.querySelector('body').innerHTML = `
                     <!-- 笔记元素 -->
                 </ul>
             </span>
-            <span class="menus"><a href="">作业资料</a>
+            <span class="menus"><a href="">C#资料</a>
                 <ul class="ziliao">
                     <!-- <li><a href="">
                             <img src="" alt="">
@@ -20,7 +20,7 @@ document.querySelector('body').innerHTML = `
                         </a></li> -->
                 </ul>
             </span>
-            <span class="menus"><a href="">C#资料</a>
+            <span class="menus"><a href="">MySQL资料</a>
                 <ul>
                     <!-- <li><a href="">
                             <img src="" alt="">
