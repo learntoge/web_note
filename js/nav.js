@@ -7,14 +7,16 @@ const biji_data = [
     { logo: 'img/logo-mysql-70x70.png', src: 'html_note/MySQL_text.html', tip: 'MySQL笔记' },
     { logo: 'img/logo-Typora-70x70.png', src: 'html_note/Typora.html', tip: 'Typora教程' },
     { logo: 'img/LOGO-Csharp.png', src: 'html_note/Csharp_text.html', tip: 'C#笔记' },
-    { logo: 'img/linux.png', src: 'html_note/Linux_text.html', tip: 'Linux笔记' }
+    { logo: 'img/ajax_logo.png', src: 'html_note/AJAX_text.html', tip: 'AJAX笔记' },
+    { logo: 'img/linux.png', src: 'html_note/Linux_text.html', tip: 'Linux笔记' },
 ]//{ logo: '', src: '', tip: 'MySQL笔记' },
 
 const ziliao_data = [
-    { logo: 'img/cshomework_icon.png', src: 'somefile/NO.1.zip', tip: '第一次作业' },
-    { logo: 'img/cshomework_icon.png', src: 'somefile/NO.2.zip', tip: '第二次作业' },
-    { logo: 'img/cshomework_icon.png', src: 'somefile/NO.3.zip', tip: '第三次作业' },
-    { logo: 'img/cshomework_icon.png', src: 'somefile/NO.4.zip', tip: '第四次作业' },
+    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第一次上机.zip', tip: '第一次作业' },
+    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第二次上机.zip', tip: '第二次作业' },
+    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第三次上机.zip', tip: '第三次作业' },
+    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第四次上机.zip', tip: '第四次作业' },
+    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第五次上机.zip', tip: '第五次作业' },
     { logo: 'img/cshomework_icon.png', src: 'somefile/空白报告.zip', tip: '空白报告' },
     { logo: 'img/cshomework_icon2.png', src: 'index.html', tip: '点击下载' }
 ]
