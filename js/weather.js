@@ -42,7 +42,6 @@ function weather(f) {
     })
     wea.then(result => {
         const w = JSON.parse(result).daily
-        console.log(w);
         const p = w.map((datas, index) => {
             return ` 
             <span>
