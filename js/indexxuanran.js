@@ -122,4 +122,48 @@ document.querySelector('body').innerHTML = `
             </div>
         </div>
     </div>
+ <!-- 模块2 -->
+    <div>
+        <div class="second">
+            <div class="timetable">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>课时/时间</td>
+                            <td>周一</td>
+                            <td>周二</td>
+                            <td>周三</td>
+                            <td>周四</td>
+                            <td>周五</td>
+                            <td>周六</td>
+                            <td>周日</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--课程信息 <tr><td></td></tr> -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="weather_box">
+                <div>
+                    <h3>天气预报</h3>
+                    <input type="text" class="weather_city" name="" id="" placeholder="输入城市名称查询天气(回车键确认)">
+                    <ul class="citylist">
+                        <!-- 城市列表 -->
+                        <!-- <li data-id="101090503">河北省-唐山-丰润</li> -->
+                    </ul>
+
+                    <div class="now_city">河北省-唐山-丰润</div>
+                    <div class="weat">
+                        <!-- 天气预报内容 -->
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
  `
