@@ -122,29 +122,4 @@ document.querySelector('body').innerHTML = `
             </div>
         </div>
     </div>
- <!-- 模块2 -->
-    <div>
-        <div class="second">
-            <div class="timetable">
-                <table>
-                    <thead>
-                        <tr>
-                            <td>课时/时间</td>
-                            <td>周一</td>
-                            <td>周二</td>
-                            <td>周三</td>
-                            <td>周四</td>
-                            <td>周五</td>
-                            <td>周六</td>
-                            <td>周日</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!--课程信息 <tr><td></td></tr> -->
-                    </tbody>
-                </table>
-            </div>
-            <div class="school_end_time">
-            </div>
-        </div>
-    </div> `
+ `

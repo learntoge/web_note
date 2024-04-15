@@ -10,7 +10,6 @@ body {
     height: 410px;
     margin: 30px auto 0;
 
-    z-index: -1;
 }
 
 .first .gaokao,
@@ -24,7 +23,7 @@ body {
 }
 
 .first .gonggao,
-.second .school_end_time {
+.second .weather_box {
     position: absolute;
     right: 0;
     width: 350px;
@@ -80,6 +79,7 @@ body {
     border-collapse: collapse;
     font-size: 15px;
     text-align: center;
+    color: #0868c2;
 }
 
 .gaokao tr,
@@ -143,6 +143,7 @@ body {
 
 /* 课程表 */
 .timetable table {
+    color: #0868c2;
 
     width: 95%;
     margin: 20px auto 0;
@@ -167,6 +168,117 @@ body {
     width: 40px;
 }
 
-.second .school_end_time {
+.second .weather_box {
     height: 500px;
+
+}
+
+/* .weather_box {} */
+.weather_box h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(21, 71, 137);
+}
+
+.weather_box .citylist {
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 100px;
+    background-color: #569ddf;
+    border-radius: 10px;
+    overflow: auto;
+    padding: 5px 10px;
+    text-align: center;
+    color: bisque;
+    z-index: 1;
+    display: none;
+}
+
+.weather_city {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 35px;
+    border-radius: 6px;
+    outline: none;
+    margin: 20px auto 0;
+    border: 2px solid rgba(135, 15, 255, 0.628);
+    padding-left: 10px;
+    font-size: 17px;
+    background-color: #8ea6e0;
+    color: blueviolet;
+}
+
+.weat {
+    position: absolute;
+    top: 105px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 310px;
+
+}
+
+.weat span {
+    /* display: inline-block; */
+    float: left;
+    width: 155px;
+    /* margin-bottom: 20px; */
+    color: rgb(75, 21, 254);
+    font-size: 14px;
+}
+
+
+.weat span i {
+    color: rgb(52, 255, 12);
+    margin-left: 8px;
+}
+
+.weat>:first-child {
+    width: 310px;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(116, 116, 246);
+    padding-bottom: 30px;
+    margin: 20px 0 30px;
+    color: rgb(142, 30, 103);
+
+}
+
+.weat>:first-child .day {
+    float: left;
+    width: 155px;
+}
+
+.weat>:first-child .night {
+    float: right;
+    width: 155px;
+}
+
+.weather_box .now_city {
+    position: absolute;
+    left: 51%;
+    transform: translateX(-50%);
+    color: rgb(6, 54, 116);
+    top: 83px;
+    font-size: 17px;
+}
+
+.weather_box .now_city::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    margin-left: -25px;
+    background: url("../img/location.png") no-repeat;
+    background-size: 25px 25px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+
+
 }
