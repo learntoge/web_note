@@ -7,7 +7,7 @@ const biji_data = [
     { logo: 'img/logo-mysql-70x70.png', src: 'html_note/MySQL_text.html', tip: 'MySQL笔记' },
     { logo: 'img/logo-Typora-70x70.png', src: 'html_note/Typora.html', tip: 'Typora教程' },
     { logo: 'img/LOGO-Csharp.png', src: 'html_note/Csharp_text.html', tip: 'C#笔记' },
-    { logo: 'img/ajax_logo.png', src: 'html_note/AJAX_text.html', tip: 'AJAX笔记' },
+    { logo: 'img/ajax_logo.png', src: 'html_note/AJAX_Node_webpack_text.html', tip: 'AJAX+Node+webpack笔记' },
     { logo: 'img/linux.png', src: 'html_note/Linux_text.html', tip: 'Linux笔记' },
 ]//{ logo: '', src: '', tip: 'MySQL笔记' },
 

@@ -84,7 +84,6 @@ nav {
 .menus>ul>li {
     width: 120px;
     padding: 10px;
-
     height: 140px;
     float: left;
 }
@@ -93,12 +92,13 @@ nav {
 .menus>ul>li>a>img {
     width: 70px;
     height: 70px;
-
 }
 
 
 .menus>ul>li>a>p {
     font-size: 15px;
     text-align: center;
-    line-height: 15px;
+    line-height: 20px;
+    width: 120px;
+    word-break: break-all;
 }
