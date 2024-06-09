@@ -6,9 +6,8 @@ setInterval(function () {
     const text_fen = document.querySelector('.fen');
     const text_shi = document.querySelector('.shi')
     // 定义时间
-    let last_time = new Date('2024-06-07 09:00:00')
-    let end_time = new Date('2024-06-09 18:15:00')
-
+    let last_time = new Date('2025-06-07 09:00:00')
+    let end_time = new Date('2025-06-09 18:15:00')
     let now_time = new Date();
     let times = (last_time - now_time) / 1000
     if (times >= 0) {
@@ -41,3 +40,7 @@ setInterval(function () {
 
 
 }, 1000)
+// 视频播放
+
+
+

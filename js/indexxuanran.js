@@ -48,14 +48,14 @@ document.querySelector('body').innerHTML = `
 
     </div>
 </nav>
-<!-- 模块1 -->
-<div>
+    <!-- 模块1 -->
+    <div>
         <div class="first">
 
             <div class="gaokao">
                 <div class="bg">
-                    <p><strong>河北高考时间2024具体时间：2024年6月7日-6月9日举行！</strong></p>
-                    <div class="title">2024年高考倒计时</div>
+                    <p><strong>河北高考时间2025具体时间：2025年6月7日-6月9日举行！</strong></p>
+                    <div class="title">2025年高考倒计时</div>
                     <div class="tian"></div>
                     <div class="shi"></div>
                     <div class="fen"></div>
@@ -99,12 +99,13 @@ document.querySelector('body').innerHTML = `
                     </tbody>
                 </table>
                 <div class="jiyv">
+                    <video controls width="400" autoplay>
+                        <source src="video/172254194-1-208.mp4" type="video/mp4" />
+                    </video>
                     <h2>站长寄语</h2>
-                    <p>三年奋斗，将成为人生中最宝贵的时光，每一刻都闪闪发亮!乘风破浪会有时，直挂云帆济沧海!冲吧少年，愿你们前途似锦、未来可期!
-                    <p>愿你们合上笔盖那一刻，像剑客将剑收回剑鞘般骄傲。以笔为剑，光耀万里，以梦为马，前程似锦，高考加油，未来可期。乘风破浪，器宇轩昂，全力以赴，金榜题名!
-                    </p>
+                    <p>2024年高考已落下帷幕，2025高考加油，愿你们前途似锦、未来可期!</p>
                     <font style="display: block; width: 90%; text-align: right; margin-top: 30px; color: chocolate;">
-                        2024年3月15日</font>
+                        2024年6月9日</font>
 
                 </div>
             </div>
@@ -121,7 +122,7 @@ document.querySelector('body').innerHTML = `
                 <p>2024/03/01</p>
             </div>
         </div>
-    </div>
+    </div>  
  <!-- 模块2 -->
     <div>
         <div class="second">
