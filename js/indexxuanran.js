@@ -12,7 +12,7 @@ document.querySelector('body').innerHTML = `
                     <!-- 笔记元素 -->
                 </ul>
             </span>
-            <span class="menus"><a href="">C#资料</a>
+            <span class="menus"><a href="">网页小程序</a>
                 <ul class="ziliao">
                     <!-- <li><a href="">
                             <img src="" alt="">

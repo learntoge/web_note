@@ -12,15 +12,7 @@ const biji_data = [
 ]//{ logo: '', src: '', tip: 'MySQL笔记' },
 
 const ziliao_data = [
-    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第一次上机.zip', tip: '第一次作业' },
-    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第二次上机.zip', tip: '第二次作业' },
-    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第三次上机.zip', tip: '第三次作业' },
-    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第四次上机.zip', tip: '第四次作业' },
-    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第五次上机.zip', tip: '第五次作业' },
-    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第六次上机.zip', tip: '第六次作业' },
-    { logo: 'img/cshomework_icon.png', src: 'somefile/cs第七次上机.zip', tip: '第七次作业' },
-    { logo: 'img/cshomework_icon.png', src: 'somefile/空白报告.zip', tip: '空白报告' },
-    { logo: 'img/cshomework_icon2.png', src: 'index.html', tip: '点击下载' }
+    { logo: 'img/chicken.png', src: './html/chickenorrabit.html', tip: '鸡兔同笼计算' }
 ]
 //定义函数渲染菜单栏内容
 function nav_data_in(data, obj) {

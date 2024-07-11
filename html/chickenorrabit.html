@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #CR {
+            margin: 100px auto;
+            height: auto;
+            width: 420px;
+            /* border: 1px solid red */
+            background-color: darkkhaki;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #CR h1,
+        #CR h3 {
+            text-align: center;
+        }
+
+        .question {
+            width: 100%;
+
+        }
+
+        .question input {
+            width: 196px;
+            height: 30px;
+            margin-bottom: 5px;
+            /* margin-left: 100px; */
+            background-color: antiquewhite;
+            border: none;
+            padding-left: 10px;
+        }
+
+        .question button {
+            width: 50px;
+            height: 30px;
+            background-color: cadetblue;
+            border-radius: 6px;
+            border: none;
+            /* margin-left: 175px; */
+            margin-bottom: 5px;
+        }
+
+        .question :nth-child(7) {
+            margin-left: 145px;
+
+        }
+
+        .answer table {
+            width: 100%;
+        }
+
+        .answer table,
+        .answer td {
+            text-align: center;
+            border: 1px solid brown;
+            border-collapse: collapse;
+        }
+
+        .answer td {
+            padding: 5px 0;
+        }
+    </style>
+
+    <div id="CR">
+        <a href="../index.html">返回首页</a>
+        <h1>鸡兔同笼问题计算器</h1>
+        <hr>
+        <h3>问题输入</h3>
+        <div class="question">
+            <input type="text" v-model.trim="animal1" placeholder=" 第一种动物的名称">
+            <input type="text" v-model.number="leg1" placeholder=" 第一种动物腿的条数">
+            <input type="text" v-model.trim="animal2" placeholder=" 第二种动物的名称">
+            <input type="text" v-model.number="leg2" placeholder=" 第二种动物腿的条数">
+            <input type="text" v-model.number="sumanimal" placeholder=" 两种动物的总只数">
+            <input type="text" v-model.number="sumleg" placeholder=" 两种动物腿总只数">
+            <button @click="execute1">计算</button>
+            <button @click="cls">清空</button>
+        </div>
+        <hr>
+        <div class="answer">
+            <h3>结果显示</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <td v-if="answ!=''" colspan=" 4">你的问题：有{{animal1}}和{{animal2}}共{{sumanimal}}只，共{{sumleg}}条腿
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>第一种动物</td>
+                        <td>数量</td>
+                        <td>第二种动物</td>
+                        <td>数量</td>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr v-if="answ==''">
+                        <td colspan=" 4" style="color: rgb(182, 9, 9); font-size: 30px;">⚠计算无结果</td>
+                    </tr>
+                    <tr v-for="a in answ">
+                        <td>{{a.animal1}}</td>
+                        <td>{{a.sumanimal1}}</td>
+                        <td>{{a.animal2}}</td>
+                        <td>{{a.sumanimal2}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+<script>
+    const a = new Vue({
+        el: "#CR",
+        data: {
+            animal1: "",
+            animal2: '',
+            leg1: "",
+            leg2: "",
+            sumanimal: "",
+            sumleg: "",
+            answ: []
+        },
+        methods: {
+            execute1() {
+                if (!this.animal1 || !this.animal2) {
+                    alert("请输入动物名称")
+                    return
+                }
+                if (typeof this.leg1 !== "number" || typeof this.leg2 !== "number" || typeof this.sumanimal !== "number") {
+                    console.log(typeof this.leg1)
+
+                    alert("请输入动物腿数")
+                    return
+                }
+                for (let i = 0; i <= this.sumanimal; i++) {
+                    if (i * this.leg1 + (this.sumanimal - i) * this.leg2 == this.sumleg) {
+                        this.answ.push({ animal1: this.animal1, animal2: this.animal2, sumanimal1: i, sumanimal2: this.sumanimal - i })
+                    }
+                    // if (!this.answ) {
+                    //     this.answ = "nofind"
+                    //     console.log(this.answ);
+                    // }
+
+                }
+
+
+            },
+            cls() {
+                this.answ = []
+                this.animal1 = this.animal2 = this.leg1 = this.leg2 = this.sumleg = this.sumanimal = ""
+            }
+        }
+    })
+</script>
+
+</html>
